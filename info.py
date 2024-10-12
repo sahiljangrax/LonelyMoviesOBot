@@ -13,9 +13,9 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '26434456'))
-API_HASH = environ.get('API_HASH', '15c10e8dd46ddc9f16725da2a637104e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6652598075:AAFPeS8oJ0yrit4Qyjm1ps9Mw3Y5JB0MAD0')
+API_ID = int(environ.get('API_ID', '22069132'))
+API_HASH = environ.get('API_HASH', 'c41478a79cddbd9eb7c719e42653c8b0')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7512580760:AAHOOtIPXwTjyEw2Q9xdJaPrK7v2qjhcGcw')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1579154183').split()]
@@ -25,8 +25,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+6wr26bL5E2xkMm
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002377866578 -1002474788204 -1002015186954 -1002201780176 -1002332950268').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ip0pc0rnbot:Sahilxbhai@Cluster3.xtzmxhu.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster3")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://LMRoBot:Sahilxbhai@cluster0.n9xmo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -90,7 +90,7 @@ IMDB = is_enabled('IMDB', False)
 FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', False)
-PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
+PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', True)
 SPELL_CHECK = is_enabled('SPELL_CHECK', True)
 LINK_MODE = is_enabled('LINK_MODE', True)
 
@@ -107,7 +107,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://ipopcornbot-a7524bbc.koyeb.app/")
+URL = environ.get("FQDN", "https://sporting-andee-autofilterclonebot-5fb1d53d.koyeb.app/")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
