@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22069132'))
 API_HASH = environ.get('API_HASH', 'c41478a79cddbd9eb7c719e42653c8b0')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7512580760:AAHOOtIPXwTjyEw2Q9xdJaPrK7v2qjhcGcw')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7512580760:AAFgl7SKck2L5HWHtye0Rtz0qM3iTtrAs3U')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1579154183').split()]
