@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22069132'))
 API_HASH = environ.get('API_HASH', 'c41478a79cddbd9eb7c719e42653c8b0')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7512580760:AAFgl7SKck2L5HWHtye0Rtz0qM3iTtrAs3U')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7778471371:AAFTwSnbe7Dn7nHm3HSy5pTJZqraRkC0FOQ')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1579154183').split()]
@@ -25,7 +25,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+6wr26bL5E2xkMm
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002377866578 -1002474788204 -1002015186954 -1002201780176 -1002332950268').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://LMRoBot:Sahilxbhai@cluster0.n9xmo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://LonelyMoviesOBot:Sahil@123@cluster0.vukhf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
@@ -41,18 +41,18 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002031790465')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/LMOWNERBOT') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://youtu.be/fFDmP6e5gzA")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://youtu.be/fFDmP6e5gzA")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://youtu.be/fFDmP6e5gzA")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "81bb9606c24d8814c7b9ef0fd7875819f9fa319c")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'instantlinks.co')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "8e9ec9cb956ef570d7e54b6075f89922612a30b1")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'instantlinks.co')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "7dc9c979fff53b9af71c2e6ba7de6b08fa49cc20")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'instantlinks.co')
+SHORTENER_API = environ.get("SHORTENER_API", "eef4dd0a2d3ef1ccebd19e36112b37656d820925")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'gplinks.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "505f0dc1d948e387981ed5d2904f86c848de0438")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'gplinks.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "eb651bc93f5d40f454985d1a33c0191f834ca556")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'gplinks.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -92,7 +92,7 @@ IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', True)
 SPELL_CHECK = is_enabled('SPELL_CHECK', True)
-LINK_MODE = is_enabled('LINK_MODE', True)
+LINK_MODE = is_enabled('LINK_MODE', False)
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
