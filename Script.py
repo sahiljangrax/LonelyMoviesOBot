@@ -123,7 +123,9 @@ User - {}"""
 1. https://t.me/+Ns2TuI5KAKVmYjll
 2. https://t.me/MovieFinderGroupByLM
 3. https://t.me/MovieSearchGroupByLM</blockquote>\n 𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/Lonely_Movies">Lonely Movies</a>」
- ➡<a href="https://t.me/share/url?url=https%3A//t.me/Lonely_Movies">✨Share to Friend📢</a>⬅
+How To Watch OR Download ➥ 「<a href="https://t.me/LM_How_To_Watch_Movie">Click Here!</a>
+Get Any Movie/Series in 10rs - <a href="https://t.me/sahiljangradm">Message NOW!</a>
+ ➡<a href="https://t.me/share/url?url=https%3A//t.me/Lonely_Movies">✨Share NOW!📢</a>⬅
 </b>"""
     
 
